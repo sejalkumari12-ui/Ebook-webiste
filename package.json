@@ -1,12 +1,12 @@
 {
   "name": "ebook",
   "version": "1.0.0",
-   "type": "module",
+  "type": "module",
   "description": "this is a ebook with rest api",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon index.ts"
+    "dev": "nodemon index.ts"
   },
   "author": "sejal kumari",
   "license": "ISC",
@@ -16,6 +16,7 @@
     "@types/node": "^24.9.1",
     "eslint": "^9.38.0",
     "globals": "^16.4.0",
+    "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.46.2"
